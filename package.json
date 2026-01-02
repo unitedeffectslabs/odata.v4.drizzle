@@ -16,7 +16,7 @@
     "dist"
   ],
   "scripts": {
-    "prepare": "yarn build",
+    "prepack": "yarn build",
     "build": "tsup",
     "build:tsc": "tsc",
     "typecheck": "tsc --noEmit",
