@@ -1,0 +1,57 @@
+{
+  "name": "@odata/drizzle",
+  "version": "1.0.0",
+  "description": "Convert OData v4 AST to Drizzle ORM queries",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepare": "yarn build",
+    "build": "tsup",
+    "build:tsc": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "odata",
+    "drizzle",
+    "orm",
+    "query",
+    "parser"
+  ],
+  "author": "United Effects Ventures LLC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uevc/odata.v4.drizzle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/uevc/odata.v4.drizzle/issues"
+  },
+  "homepage": "https://github.com/uevc/odata.v4.drizzle#readme",
+  "dependencies": {
+    "@odata/parser": "github:uevc/odata.v4.parser"
+  },
+  "peerDependencies": {
+    "drizzle-orm": ">=0.30.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "drizzle-orm": "^0.38.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.7.0",
+    "vitest": "^2.0.0"
+  }
+}
