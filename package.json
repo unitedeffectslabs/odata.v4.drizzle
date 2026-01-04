@@ -1,15 +1,19 @@
 {
-  "name": "@odata/drizzle",
-  "version": "1.0.0",
+  "name": "@uev/odata-drizzle",
+  "version": "1.0.1",
+  "type": "module",
   "description": "Convert OData v4 AST to Drizzle ORM queries",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.js"
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
     }
   },
   "files": [
@@ -31,7 +35,11 @@
     "query",
     "parser"
   ],
-  "author": "United Effects Ventures LLC",
+  "author": {
+    "name": "Bo Motlagh",
+    "email": "community@ue.ventures",
+    "url": "https://ue.ventures"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -41,8 +49,9 @@
     "url": "https://github.com/uevc/odata.v4.drizzle/issues"
   },
   "homepage": "https://github.com/uevc/odata.v4.drizzle#readme",
+  "packageManager": "yarn@4.9.4",
   "dependencies": {
-    "@odata/parser": "github:uevc/odata.v4.parser"
+    "@uev/odata-parser": "^0.2.1"
   },
   "peerDependencies": {
     "drizzle-orm": ">=0.30.0"

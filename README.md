@@ -1,4 +1,4 @@
-# @odata/drizzle
+# @uev/odata-drizzle
 
 Convert OData v4 query strings to Drizzle ORM queries.
 

@@ -429,28 +429,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@odata/drizzle@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@odata/drizzle@workspace:."
-  dependencies:
-    "@odata/parser": "github:uevc/odata.v4.parser"
-    "@types/node": "npm:^22.0.0"
-    drizzle-orm: "npm:^0.38.0"
-    tsup: "npm:^8.0.0"
-    typescript: "npm:^5.7.0"
-    vitest: "npm:^2.0.0"
-  peerDependencies:
-    drizzle-orm: ">=0.30.0"
-  languageName: unknown
-  linkType: soft
-
-"@odata/parser@github:uevc/odata.v4.parser":
-  version: 0.2.0
-  resolution: "@odata/parser@https://github.com/uevc/odata.v4.parser.git#commit=0ca6bca9db6e4822bfea4f52036008a871eea888"
-  checksum: 10c0/596904b94448e253ebde3a2a1035dd542bdbf32dca7d508cbec697d0fcff80412701a49b7dd33a6ad07e766e44d48694d1d6ea417ca68a82eb409598e909ef53
-  languageName: node
-  linkType: hard
-
 "@rollup/rollup-android-arm-eabi@npm:4.54.0":
   version: 4.54.0
   resolution: "@rollup/rollup-android-arm-eabi@npm:4.54.0"
@@ -618,6 +596,28 @@ __metadata:
   dependencies:
     undici-types: "npm:~6.21.0"
   checksum: 10c0/a30a75d503da795ddbd5f8851014f3e91925c2a63fa3f14128d54c998f25d682dfba96dc9589c73cf478b87a16d88beb790b11697bb8cd5bee913079237a58f2
+  languageName: node
+  linkType: hard
+
+"@uev/odata-drizzle@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@uev/odata-drizzle@workspace:."
+  dependencies:
+    "@types/node": "npm:^22.0.0"
+    "@uev/odata-parser": "npm:^0.2.1"
+    drizzle-orm: "npm:^0.38.0"
+    tsup: "npm:^8.0.0"
+    typescript: "npm:^5.7.0"
+    vitest: "npm:^2.0.0"
+  peerDependencies:
+    drizzle-orm: ">=0.30.0"
+  languageName: unknown
+  linkType: soft
+
+"@uev/odata-parser@npm:^0.2.1":
+  version: 0.2.1
+  resolution: "@uev/odata-parser@npm:0.2.1"
+  checksum: 10c0/5c976b089c79785d3de50c41393ba4a78ef7ffb391fbd4a6124c57c69d44438f4f9bcdd4d98f73af44ab0cc390e20fa1322b12a22957cb0a545501413d6e64ff
   languageName: node
   linkType: hard
 

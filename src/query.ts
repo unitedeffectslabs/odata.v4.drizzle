@@ -1,6 +1,6 @@
 import { asc, desc, type SQL } from 'drizzle-orm';
 import type { PgColumn } from 'drizzle-orm/pg-core';
-import { TokenType, type Token } from '@odata/parser';
+import { TokenType, type Token } from '@uev/odata-parser';
 import type { DrizzleTable, ConvertOptions, DrizzleQueryOptions } from './types';
 import { convertFilter } from './filter';
 
