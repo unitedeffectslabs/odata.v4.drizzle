@@ -1,6 +1,6 @@
 {
   "name": "@uev/odata-drizzle",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "description": "Convert OData v4 AST to Drizzle ORM queries",
   "publishConfig": {
