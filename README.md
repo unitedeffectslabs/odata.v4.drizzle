@@ -12,13 +12,13 @@ Convert OData v4 query strings to Drizzle ORM queries.
 ## Installation
 
 ```bash
-yarn add @odata/drizzle drizzle-orm
+yarn add @uev/odata-drizzle drizzle-orm
 ```
 
 ## Quick Start
 
 ```typescript
-import { Parser, convertQueryOptions } from '@odata/drizzle';
+import { Parser, convertQueryOptions } from '@uev/odata-drizzle';
 import { db } from './db';
 import { users } from './schema';
 
