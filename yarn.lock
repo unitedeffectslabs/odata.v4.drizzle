@@ -599,9 +599,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@uev/odata-drizzle@workspace:.":
+"@uel/odata-drizzle@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@uev/odata-drizzle@workspace:."
+  resolution: "@uel/odata-drizzle@workspace:."
   dependencies:
     "@types/node": "npm:^22.0.0"
     "@uev/odata-parser": "npm:^0.2.1"

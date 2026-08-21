@@ -2,10 +2,10 @@
 
 ## Project Overview
 
-Converts OData v4 AST (from @odata/parser) to Drizzle ORM query parameters.
+Converts OData v4 AST (from @uev/odata-parser) to Drizzle ORM query parameters.
 
 **Dependencies**:
-- @odata/parser (GitHub: uevc/odata.v4.parser)
+- @uev/odata-parser (GitHub: unitedeffectslabs/odata.v4.parser)
 - drizzle-orm (peer dependency)
 
 ## Package Management
@@ -58,7 +58,7 @@ yarn clean       # Remove dist
 ## Usage Pattern
 
 ```typescript
-import { Parser, convertQueryOptions } from '@odata/drizzle';
+import { Parser, convertQueryOptions } from '@uel/odata-drizzle';
 import { users } from './schema';
 
 const parser = new Parser();

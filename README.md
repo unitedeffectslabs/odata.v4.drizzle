@@ -1,10 +1,10 @@
-# @uev/odata-drizzle
+# @uel/odata-drizzle
 
 Convert OData v4 query strings to Drizzle ORM queries.
 
 ## Features
 
-- **Parse & Convert**: Uses @odata/parser to parse OData, converts AST to Drizzle
+- **Parse & Convert**: Uses @uev/odata-parser to parse OData, converts AST to Drizzle
 - **Type-Safe**: Full TypeScript support with Drizzle's type inference
 - **Field Mapping**: Map OData field names to database column names
 - **All Query Options**: Supports $filter, $orderby, $top, $skip, $select
@@ -12,13 +12,13 @@ Convert OData v4 query strings to Drizzle ORM queries.
 ## Installation
 
 ```bash
-yarn add @uev/odata-drizzle drizzle-orm
+yarn add @uel/odata-drizzle drizzle-orm
 ```
 
 ## Quick Start
 
 ```typescript
-import { Parser, convertQueryOptions } from '@uev/odata-drizzle';
+import { Parser, convertQueryOptions } from '@uel/odata-drizzle';
 import { db } from './db';
 import { users } from './schema';
 
@@ -115,4 +115,4 @@ const opts = convertQueryOptions(ast, {
 
 ## License
 
-MIT - United Effects Ventures LLC
+MIT - S31C LLC DBA United Effects Labs
