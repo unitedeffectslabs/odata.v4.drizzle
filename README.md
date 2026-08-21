@@ -1,4 +1,4 @@
-# @uel/odata-drizzle
+# @uelabs/odata-drizzle
 
 Convert OData v4 query strings to Drizzle ORM queries.
 
@@ -12,13 +12,13 @@ Convert OData v4 query strings to Drizzle ORM queries.
 ## Installation
 
 ```bash
-yarn add @uel/odata-drizzle drizzle-orm
+yarn add @uelabs/odata-drizzle drizzle-orm
 ```
 
 ## Quick Start
 
 ```typescript
-import { Parser, convertQueryOptions } from '@uel/odata-drizzle';
+import { Parser, convertQueryOptions } from '@uelabs/odata-drizzle';
 import { db } from './db';
 import { users } from './schema';
 

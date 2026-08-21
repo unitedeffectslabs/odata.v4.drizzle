@@ -58,7 +58,7 @@ yarn clean       # Remove dist
 ## Usage Pattern
 
 ```typescript
-import { Parser, convertQueryOptions } from '@uel/odata-drizzle';
+import { Parser, convertQueryOptions } from '@uelabs/odata-drizzle';
 import { users } from './schema';
 
 const parser = new Parser();

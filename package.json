@@ -1,6 +1,6 @@
 {
-  "name": "@uel/odata-drizzle",
-  "version": "1.0.3",
+  "name": "@uelabs/odata-drizzle",
+  "version": "1.0.4",
   "type": "module",
   "description": "Convert OData v4 AST to Drizzle ORM queries",
   "publishConfig": {
@@ -58,9 +58,9 @@
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
-    "drizzle-orm": "^0.38.0",
+    "drizzle-orm": "^0.45.2",
     "tsup": "^8.0.0",
     "typescript": "^5.7.0",
-    "vitest": "^2.0.0"
+    "vitest": "^3.2.6"
   }
 }
