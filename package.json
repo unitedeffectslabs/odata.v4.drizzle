@@ -1,6 +1,6 @@
 {
   "name": "@uelabs/odata-drizzle",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "type": "module",
   "description": "Convert OData v4 AST to Drizzle ORM queries",
   "publishConfig": {
@@ -51,7 +51,7 @@
   "homepage": "https://github.com/unitedeffectslabs/odata.v4.drizzle#readme",
   "packageManager": "yarn@4.9.4",
   "dependencies": {
-    "@uev/odata-parser": "^0.2.1"
+    "@uelabs/odata-parser": "^0.2.3"
   },
   "peerDependencies": {
     "drizzle-orm": ">=0.30.0"

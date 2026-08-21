@@ -4,7 +4,7 @@ Convert OData v4 query strings to Drizzle ORM queries.
 
 ## Features
 
-- **Parse & Convert**: Uses @uev/odata-parser to parse OData, converts AST to Drizzle
+- **Parse & Convert**: Uses @uelabs/odata-parser to parse OData, converts AST to Drizzle
 - **Type-Safe**: Full TypeScript support with Drizzle's type inference
 - **Field Mapping**: Map OData field names to database column names
 - **All Query Options**: Supports $filter, $orderby, $top, $skip, $select

@@ -6,7 +6,7 @@
  *
  * @example
  * ```typescript
- * import { Parser } from '@uev/odata-parser';
+ * import { Parser } from '@uelabs/odata-parser';
  * import { convertQueryOptions } from '@uelabs/odata-drizzle';
  * import { users } from './schema';
  *
@@ -35,4 +35,4 @@ export type {
 } from './types';
 
 // Re-export parser for convenience
-export { Parser, TokenType, filter, query } from '@uev/odata-parser';
+export { Parser, TokenType, filter, query } from '@uelabs/odata-parser';

@@ -654,7 +654,7 @@ __metadata:
   resolution: "@uelabs/odata-drizzle@workspace:."
   dependencies:
     "@types/node": "npm:^22.0.0"
-    "@uev/odata-parser": "npm:^0.2.1"
+    "@uelabs/odata-parser": "npm:^0.2.3"
     drizzle-orm: "npm:^0.45.2"
     tsup: "npm:^8.0.0"
     typescript: "npm:^5.7.0"
@@ -664,10 +664,10 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@uev/odata-parser@npm:^0.2.1":
-  version: 0.2.1
-  resolution: "@uev/odata-parser@npm:0.2.1"
-  checksum: 10c0/5c976b089c79785d3de50c41393ba4a78ef7ffb391fbd4a6124c57c69d44438f4f9bcdd4d98f73af44ab0cc390e20fa1322b12a22957cb0a545501413d6e64ff
+"@uelabs/odata-parser@npm:^0.2.3":
+  version: 0.2.3
+  resolution: "@uelabs/odata-parser@npm:0.2.3"
+  checksum: 10c0/35f185cc2b5808d50bf7db36fb162bb81aa5586146eb929af26691776288e8e6c801e918a7c819049627d5b3401b7e5a18930f4b87e6c7ebc21fd4f5c07c243e
   languageName: node
   linkType: hard
 
