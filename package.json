@@ -43,7 +43,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/unitedeffectslabs/odata.v4.drizzle.git"
+    "url": "git+https://github.com/unitedeffectslabs/odata.v4.drizzle.git"
   },
   "bugs": {
     "url": "https://github.com/unitedeffectslabs/odata.v4.drizzle/issues"
