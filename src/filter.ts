@@ -6,7 +6,7 @@ import {
   type SQL
 } from 'drizzle-orm';
 import type { PgColumn } from 'drizzle-orm/pg-core';
-import { TokenType, type Token } from '@uev/odata-parser';
+import { TokenType, type Token } from '@uelabs/odata-parser';
 import type { DrizzleTable, ConvertOptions } from './types';
 
 /**

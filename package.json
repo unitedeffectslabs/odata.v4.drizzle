@@ -1,6 +1,6 @@
 {
-  "name": "@uev/odata-drizzle",
-  "version": "1.0.3",
+  "name": "@uelabs/odata-drizzle",
+  "version": "1.0.5",
   "type": "module",
   "description": "Convert OData v4 AST to Drizzle ORM queries",
   "publishConfig": {
@@ -37,30 +37,30 @@
   ],
   "author": {
     "name": "Bo Motlagh",
-    "email": "community@ue.ventures",
-    "url": "https://ue.ventures"
+    "email": "hello@uelabs.ai",
+    "url": "https://uelabs.ai"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/uevc/odata.v4.drizzle.git"
+    "url": "git+https://github.com/unitedeffectslabs/odata.v4.drizzle.git"
   },
   "bugs": {
-    "url": "https://github.com/uevc/odata.v4.drizzle/issues"
+    "url": "https://github.com/unitedeffectslabs/odata.v4.drizzle/issues"
   },
-  "homepage": "https://github.com/uevc/odata.v4.drizzle#readme",
+  "homepage": "https://github.com/unitedeffectslabs/odata.v4.drizzle#readme",
   "packageManager": "yarn@4.9.4",
   "dependencies": {
-    "@uev/odata-parser": "^0.2.1"
+    "@uelabs/odata-parser": "^0.2.3"
   },
   "peerDependencies": {
     "drizzle-orm": ">=0.30.0"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
-    "drizzle-orm": "^0.38.0",
+    "drizzle-orm": "^0.45.2",
     "tsup": "^8.0.0",
     "typescript": "^5.7.0",
-    "vitest": "^2.0.0"
+    "vitest": "^3.2.6"
   }
 }

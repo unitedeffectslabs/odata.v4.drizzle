@@ -1,13 +1,13 @@
 /**
- * @uev/odata-drizzle - Convert OData v4 AST to Drizzle ORM queries
+ * @uelabs/odata-drizzle - Convert OData v4 AST to Drizzle ORM queries
  *
  * This package bridges the OData parser with Drizzle ORM, allowing you to
  * parse OData query strings and convert them to type-safe Drizzle queries.
  *
  * @example
  * ```typescript
- * import { Parser } from '@uev/odata-parser';
- * import { convertQueryOptions } from '@uev/odata-drizzle';
+ * import { Parser } from '@uelabs/odata-parser';
+ * import { convertQueryOptions } from '@uelabs/odata-drizzle';
  * import { users } from './schema';
  *
  * const parser = new Parser();
@@ -35,4 +35,4 @@ export type {
 } from './types';
 
 // Re-export parser for convenience
-export { Parser, TokenType, filter, query } from '@uev/odata-parser';
+export { Parser, TokenType, filter, query } from '@uelabs/odata-parser';

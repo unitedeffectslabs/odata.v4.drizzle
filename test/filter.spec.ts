@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { pgTable, text, integer, boolean, timestamp, uuid } from 'drizzle-orm/pg-core';
-import { Parser } from '@uev/odata-parser';
+import { Parser } from '@uelabs/odata-parser';
 import { convertFilter, convertQueryOptions } from '../src';
 
 // Mock table for testing
